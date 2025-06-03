@@ -1,5 +1,5 @@
 {% set name = "anaconda-assistant-sdk" %}
-{% set version = "0.4.0" %}
+{% set version = "0.5.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/anaconda_assistant_sdk-{{ version }}.tar.gz
-  sha256: 1bf4b513bab7402faa126874e2ef0c2adb5ddd8a8484c320b239cad4a01c4ad0
+  sha256: e9375aa828faf46ae4025a6312f85f5744ca621592da53ca9dcb98a47413ea64
 
 build:
   noarch: python
